@@ -1,0 +1,25 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.post {
+    max-width: 600px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 20px;
+}
+.post img {
+    max-width: 100%;
+}
+.post h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 1.8em;
+}
